@@ -815,7 +815,7 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
+/* .bg-dots-bg {
     background-image: url("img/dots-bg.png");
 }
 
@@ -830,7 +830,7 @@ h4 {
 .bg-atlanta-20made-20sign-20orange {
     background-image: url("img/atlanta%20made%20sign%20orange.webp");
 } 
-
+ */
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
