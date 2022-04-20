@@ -362,6 +362,11 @@ a:hover {
     z-index: 2;
 }
 
+quote span
+{ 
+  font-weight: bold;
+  font-style: italic;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -1031,6 +1036,11 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    quote 
+    { 
+        margin-left: 15px;
+        margin-right: 15px;
     }
 }
 
