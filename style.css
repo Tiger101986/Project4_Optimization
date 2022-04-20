@@ -748,6 +748,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+  
 }
 
 .portfolio-row {
@@ -975,8 +976,8 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
-        width: auto;
+        height: 40px;
+        width: 100%;
     }
     .nav-invert .navbar-header {
         float: none;
@@ -1044,6 +1045,17 @@ h4 {
         margin-left: 15px;
         margin-right: 15px;
     }
+    .portfolio-thumb
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .col-sm-12 img
+    {
+        width: 100px;
+        height: 103px;
+    }
+
 }
 
 @media (max-width: 400px) {
@@ -1051,6 +1063,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    
 }
 
 @media (max-width: 767px) {
