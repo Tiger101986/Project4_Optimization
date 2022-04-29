@@ -194,13 +194,13 @@ button {
     width: 26px;
 }
 
-quote
+.txt-comment
 {
     color: #000000;
     font-size: 19px;
 }
 
-quote span
+.txt-comment span
 { 
   font-weight: bold;
   font-style: italic;
