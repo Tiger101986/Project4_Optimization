@@ -85,27 +85,28 @@
 							<div class="col-sm-6">
 								<form id="form_1" novalidate>
 									<div class="form-group">
-										<label>
+										<label for="name">
 											Name
 										</label>
-										<input id="name" class="form-control" required type="text" placeholder="Full Name" />
+										<input id="name" class="form-control" required type="text" placeholder="Full Name" aria-label="full name" />
 									</div>
 									<div class="form-group">
-										<label>
+										<label for="email">
 											Email
 										</label>
-										<input id="email" class="form-control" type="text" placeholder="example@yahoo.com"  required />
+										<input id="email" class="form-control" type="email" placeholder="example@email.com" aria-label="example@email.com"  required />
 									</div>
 									<div class="form-group">
-										<label>
+										<label for="input_504">
 											How did you find me?
 										</label>
-										<input id="input_504" class="form-control" type="text" placeholder="Tell me!"  required  />
+										<input id="input_504" class="form-control" type="text" placeholder="Tell me!" aria-label="tell me!"  required  />
 									</div>
 									<div class="form-group">
-										<label>
+										<label for="message">
 											Project brief (Please be as detailed as possible including your company goals and any improvements you&rsquo;d like to have over your current website)<br>
-										</label><textarea id="message" class="form-control" rows="4" cols="50" placeholder="Talk about yourself!" required></textarea>
+										</label>
+										<textarea id="message" class="form-control" rows="4" cols="50" placeholder="Talk about yourself!" aria-label="talk about yourself" required></textarea>
 									</div> 
 									<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 										Let's go Mike
