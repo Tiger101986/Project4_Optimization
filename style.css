@@ -13,9 +13,7 @@ button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-img{
-    aspect-ratio: attr(width)/attr(height);
-}
+
 .bloc {
     width: 100%;
     clear: both;
